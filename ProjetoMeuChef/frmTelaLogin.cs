@@ -16,5 +16,13 @@ namespace ProjetoMeuChef
         {
             InitializeComponent();
         }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;//fecha a tela inicial
+
+            frmTelaPrincipal ftp = new frmTelaPrincipal();//instancia a tela principal
+            ftp.Show();//abre a tela principal
+        }
     }
 }
