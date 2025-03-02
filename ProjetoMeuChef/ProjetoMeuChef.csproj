@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBase.cs" />
     <Compile Include="frmTelaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +63,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmTelaLogin.resx">
       <DependentUpon>frmTelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTelaPrincipal.resx">
+      <DependentUpon>frmTelaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +92,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\chef2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscarMenor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscarMedio.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

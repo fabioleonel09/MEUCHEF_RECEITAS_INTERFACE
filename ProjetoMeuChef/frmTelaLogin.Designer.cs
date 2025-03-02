@@ -29,25 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTelaLogin));
-            this.pbImagemInicial = new System.Windows.Forms.PictureBox();
             this.pnlImagemInicial = new System.Windows.Forms.Panel();
             this.lblMeuChef = new System.Windows.Forms.Label();
             this.lblReceitas = new System.Windows.Forms.Label();
             this.btnIniciar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImagemInicial)).BeginInit();
+            this.pbImagemInicial = new System.Windows.Forms.PictureBox();
             this.pnlImagemInicial.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagemInicial)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pbImagemInicial
-            // 
-            this.pbImagemInicial.BackColor = System.Drawing.Color.Transparent;
-            this.pbImagemInicial.Image = global::ProjetoMeuChef.Properties.Resources.chef2;
-            this.pbImagemInicial.Location = new System.Drawing.Point(-24, 0);
-            this.pbImagemInicial.Name = "pbImagemInicial";
-            this.pbImagemInicial.Size = new System.Drawing.Size(182, 227);
-            this.pbImagemInicial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbImagemInicial.TabIndex = 0;
-            this.pbImagemInicial.TabStop = false;
             // 
             // pnlImagemInicial
             // 
@@ -97,6 +86,17 @@
             this.btnIniciar.UseVisualStyleBackColor = false;
             this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
+            // pbImagemInicial
+            // 
+            this.pbImagemInicial.BackColor = System.Drawing.Color.Transparent;
+            this.pbImagemInicial.Image = global::ProjetoMeuChef.Properties.Resources.chef2;
+            this.pbImagemInicial.Location = new System.Drawing.Point(-24, 0);
+            this.pbImagemInicial.Name = "pbImagemInicial";
+            this.pbImagemInicial.Size = new System.Drawing.Size(182, 227);
+            this.pbImagemInicial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbImagemInicial.TabIndex = 0;
+            this.pbImagemInicial.TabStop = false;
+            // 
             // frmTelaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -110,11 +110,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTelaLogin";
-            this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Meu Chef - Gerenciador de Receitas";
-            ((System.ComponentModel.ISupportInitialize)(this.pbImagemInicial)).EndInit();
             this.pnlImagemInicial.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagemInicial)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
