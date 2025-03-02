@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetoMeuChef
 {
-    public partial class Form1 : Form
+    public partial class frmTelaPrincipal : Form
     {
-        public Form1()
+        public frmTelaPrincipal()
         {
             InitializeComponent();
         }

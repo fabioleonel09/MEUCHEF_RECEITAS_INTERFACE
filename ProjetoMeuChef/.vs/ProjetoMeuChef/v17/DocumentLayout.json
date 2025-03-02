@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\F\u00E1bio Leonel\\Documents\\GitHub\\MEUCHEF_RECEITAS_INTERFACE\\ProjetoMeuChef\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F7DB27A-12D9-44A1-A837-77D5966339F3}|ProjetoMeuChef.csproj|c:\\users\\f\u00E1bio leonel\\documents\\github\\meuchef_receitas_interface\\projetomeuchef\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F7DB27A-12D9-44A1-A837-77D5966339F3}|ProjetoMeuChef.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4F7DB27A-12D9-44A1-A837-77D5966339F3}|ProjetoMeuChef.csproj|c:\\users\\f\u00E1bio leonel\\documents\\github\\meuchef_receitas_interface\\projetomeuchef\\frmtelalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F7DB27A-12D9-44A1-A837-77D5966339F3}|ProjetoMeuChef.csproj|solutionrelative:frmtelalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7DB27A-12D9-44A1-A837-77D5966339F3}|ProjetoMeuChef.csproj|c:\\users\\f\u00E1bio leonel\\documents\\github\\meuchef_receitas_interface\\projetomeuchef\\frmtelaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F7DB27A-12D9-44A1-A837-77D5966339F3}|ProjetoMeuChef.csproj|solutionrelative:frmtelaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\F\u00E1bio Leonel\\Documents\\GitHub\\MEUCHEF_RECEITAS_INTERFACE\\ProjetoMeuChef\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\F\u00E1bio Leonel\\Documents\\GitHub\\MEUCHEF_RECEITAS_INTERFACE\\ProjetoMeuChef\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "Title": "frmTelaLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\F\u00E1bio Leonel\\Documents\\GitHub\\MEUCHEF_RECEITAS_INTERFACE\\ProjetoMeuChef\\frmTelaLogin.cs",
+              "RelativeDocumentMoniker": "frmTelaLogin.cs",
+              "ToolTip": "C:\\Users\\F\u00E1bio Leonel\\Documents\\GitHub\\MEUCHEF_RECEITAS_INTERFACE\\ProjetoMeuChef\\frmTelaLogin.cs [Design]",
+              "RelativeToolTip": "frmTelaLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T12:21:10.739Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTelaPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\F\u00E1bio Leonel\\Documents\\GitHub\\MEUCHEF_RECEITAS_INTERFACE\\ProjetoMeuChef\\frmTelaPrincipal.cs",
+              "RelativeDocumentMoniker": "frmTelaPrincipal.cs",
+              "ToolTip": "C:\\Users\\F\u00E1bio Leonel\\Documents\\GitHub\\MEUCHEF_RECEITAS_INTERFACE\\ProjetoMeuChef\\frmTelaPrincipal.cs [Design]",
+              "RelativeToolTip": "frmTelaPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T12:27:35.701Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             }
           ]
