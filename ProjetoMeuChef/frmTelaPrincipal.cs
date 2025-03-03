@@ -43,7 +43,24 @@ namespace ProjetoMeuChef
                     System.Data.DataTable dt = new System.Data.DataTable();
                     da.Fill(dt);
                     dgvReceitas.DataSource = dt;
+
                     dgvReceitas.Columns["PesoFinal"].DefaultCellStyle.Format = "N2"; // Exibe duas casas decimais
+
+                    //Melhora o cabeçalho da grid
+                    dgvReceitas.Columns["nomeCardapio"].HeaderText = "Nome da Receita:";
+                    dgvReceitas.Columns["descricaoCardapio"].HeaderText = "Descrição da receita:";
+                    dgvReceitas.Columns["ingredientesCardapio"].HeaderText = "Ingredientes:";
+                    dgvReceitas.Columns["preparoCardapio"].HeaderText = "Modo de Preparo:";
+                    dgvReceitas.Columns["observacaoCardapio"].HeaderText = "Observações:";
+                    dgvReceitas.Columns["pesoFinal"].HeaderText = "Peso Final (Kg):";
+
+                    //coloca um tamanho em cada coluna
+                    dgvReceitas.Columns["nomeCardapio"].Width = 200;
+                    dgvReceitas.Columns["descricaoCardapio"].Width = 300;
+                    dgvReceitas.Columns["ingredientesCardapio"].Width = 400;
+                    dgvReceitas.Columns["preparoCardapio"].Width = 400;
+                    dgvReceitas.Columns["observacaoCardapio"].Width = 300;
+                    dgvReceitas.Columns["pesoFinal"].Width = 80;
 
                 }
                 catch (Exception ex)

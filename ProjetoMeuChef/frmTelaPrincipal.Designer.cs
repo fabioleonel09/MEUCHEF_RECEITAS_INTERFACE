@@ -53,10 +53,10 @@
             this.lblObservacoes = new System.Windows.Forms.Label();
             this.txtPesoFinal = new System.Windows.Forms.TextBox();
             this.lblPesoFinal = new System.Windows.Forms.Label();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnLimpaBusca = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.tlpGeral.SuspendLayout();
             this.gbDadosGerais.SuspendLayout();
             this.gbGradeDados.SuspendLayout();
@@ -122,6 +122,8 @@
             // 
             this.dgvReceitas.AllowUserToAddRows = false;
             this.dgvReceitas.AllowUserToDeleteRows = false;
+            this.dgvReceitas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvReceitas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvReceitas.Location = new System.Drawing.Point(6, 45);
             this.dgvReceitas.Name = "dgvReceitas";
@@ -143,6 +145,8 @@
             // 
             // gbBuscar
             // 
+            this.gbBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gbBuscar.Controls.Add(this.btnLimpaBusca);
             this.gbBuscar.Controls.Add(this.txtBuscar);
             this.gbBuscar.Controls.Add(this.btnBuscar);
@@ -252,6 +256,8 @@
             // 
             // txtNome
             // 
+            this.txtNome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(7, 166);
             this.txtNome.Name = "txtNome";
@@ -260,6 +266,8 @@
             // 
             // txtDescricao
             // 
+            this.txtDescricao.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescricao.Location = new System.Drawing.Point(7, 218);
             this.txtDescricao.Name = "txtDescricao";
@@ -279,6 +287,8 @@
             // 
             // txtIngredientes
             // 
+            this.txtIngredientes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtIngredientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIngredientes.Location = new System.Drawing.Point(7, 270);
             this.txtIngredientes.Name = "txtIngredientes";
@@ -298,6 +308,8 @@
             // 
             // txtModoPreparo
             // 
+            this.txtModoPreparo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtModoPreparo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtModoPreparo.Location = new System.Drawing.Point(7, 322);
             this.txtModoPreparo.Name = "txtModoPreparo";
@@ -353,22 +365,6 @@
             this.lblPesoFinal.TabIndex = 13;
             this.lblPesoFinal.Text = "Peso final (Kg):*";
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(100)))), ((int)(((byte)(60)))));
-            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(100)))), ((int)(((byte)(60)))));
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Image = global::ProjetoMeuChef.Properties.Resources.buscarMedio;
-            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBuscar.Location = new System.Drawing.Point(244, 11);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(74, 64);
-            this.btnBuscar.TabIndex = 4;
-            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBuscar.UseVisualStyleBackColor = false;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -400,6 +396,22 @@
             this.btnLimpaBusca.TabIndex = 6;
             this.btnLimpaBusca.UseVisualStyleBackColor = false;
             this.btnLimpaBusca.Click += new System.EventHandler(this.btnLimpaBusca_Click);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(100)))), ((int)(((byte)(60)))));
+            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(100)))), ((int)(((byte)(60)))));
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Image = global::ProjetoMeuChef.Properties.Resources.buscarMedio;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBuscar.Location = new System.Drawing.Point(244, 11);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(74, 64);
+            this.btnBuscar.TabIndex = 4;
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // frmTelaPrincipal
             // 
