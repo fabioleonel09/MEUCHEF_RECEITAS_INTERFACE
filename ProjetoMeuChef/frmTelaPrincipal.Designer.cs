@@ -56,6 +56,7 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnLimpaBusca = new System.Windows.Forms.Button();
             this.tlpGeral.SuspendLayout();
             this.gbDadosGerais.SuspendLayout();
             this.gbGradeDados.SuspendLayout();
@@ -142,6 +143,7 @@
             // 
             // gbBuscar
             // 
+            this.gbBuscar.Controls.Add(this.btnLimpaBusca);
             this.gbBuscar.Controls.Add(this.txtBuscar);
             this.gbBuscar.Controls.Add(this.btnBuscar);
             this.gbBuscar.Controls.Add(this.rbObservacao);
@@ -168,7 +170,7 @@
             this.rbNome.AutoSize = true;
             this.rbNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbNome.ForeColor = System.Drawing.Color.White;
-            this.rbNome.Location = new System.Drawing.Point(16, 19);
+            this.rbNome.Location = new System.Drawing.Point(6, 19);
             this.rbNome.Name = "rbNome";
             this.rbNome.Size = new System.Drawing.Size(69, 24);
             this.rbNome.TabIndex = 0;
@@ -361,7 +363,7 @@
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBuscar.Location = new System.Drawing.Point(244, 11);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(129, 64);
+            this.btnBuscar.Size = new System.Drawing.Size(74, 64);
             this.btnBuscar.TabIndex = 4;
             this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -384,6 +386,20 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(232, 26);
             this.txtBuscar.TabIndex = 5;
+            // 
+            // btnLimpaBusca
+            // 
+            this.btnLimpaBusca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(158)))), ((int)(((byte)(60)))));
+            this.btnLimpaBusca.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpaBusca.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(158)))), ((int)(((byte)(60)))));
+            this.btnLimpaBusca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpaBusca.Image = global::ProjetoMeuChef.Properties.Resources.limpa;
+            this.btnLimpaBusca.Location = new System.Drawing.Point(325, 11);
+            this.btnLimpaBusca.Name = "btnLimpaBusca";
+            this.btnLimpaBusca.Size = new System.Drawing.Size(48, 64);
+            this.btnLimpaBusca.TabIndex = 6;
+            this.btnLimpaBusca.UseVisualStyleBackColor = false;
+            this.btnLimpaBusca.Click += new System.EventHandler(this.btnLimpaBusca_Click);
             // 
             // frmTelaPrincipal
             // 
@@ -440,5 +456,6 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.Button btnLimpaBusca;
     }
 }

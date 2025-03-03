@@ -143,6 +143,7 @@ namespace ProjetoMeuChef
                         }
                         MessageBox.Show("Cardápio editado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         CarregarDados();
+                        dgvReceitas.Refresh();
                         LimpaTxts();
                     }
                     catch (Exception ex)
@@ -245,6 +246,12 @@ namespace ProjetoMeuChef
 
             // Aplica o filtro na DataGridView
             (dgvReceitas.DataSource as DataTable).DefaultView.RowFilter = string.Format("[{0}] LIKE '%{1}%'", colunaFiltro, filtro);
+        }
+
+        private void btnLimpaBusca_Click(object sender, EventArgs e)
+        {
+            txtBuscar.Clear();
+            (dgvReceitas.DataSource as DataTable).DefaultView.RowFilter = ""; // Remove o filtro e exibe todos os dados
         }
     }
 }

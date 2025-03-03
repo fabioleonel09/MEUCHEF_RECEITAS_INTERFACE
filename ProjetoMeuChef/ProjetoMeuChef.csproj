@@ -102,5 +102,8 @@
   <ItemGroup>
     <None Include="Resources\buscarMedio.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpa.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
